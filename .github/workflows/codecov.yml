@@ -14,4 +14,4 @@ jobs:
       - name: Upload
         uses: codecov/codecov-action@v1
         with:
-          files: ./lib.c.gcov ./otherlib.c.gcov
+          files: ./lib.c.gcov,./otherlib.c.gcov
